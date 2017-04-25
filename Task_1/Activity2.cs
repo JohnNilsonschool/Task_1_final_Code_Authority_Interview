@@ -4,6 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/// <summary>
+/// 
+/// </summary>
+
 namespace Task_1
 {
     class Activity2
