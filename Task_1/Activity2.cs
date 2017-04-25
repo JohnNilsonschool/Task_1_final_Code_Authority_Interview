@@ -1,11 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 /// <summary>
+/// This class flips exchanges the value of varibles without creating any new varibles.
 /// 
+/// Original problem given:
+/// 2. Define two Integer (32bit) variables and values of X=72 and Y=59, now swap the values of X and Y without declaring any new variables, use only the two existing X and Y variables.
+/// Example Input:
+/// X = 72
+/// Y = 59
+/// 
+/// Example Result:
+/// X = 59
+/// Y = 72
+/// 
+/// Current test solution outputs 72 and 59
 /// </summary>
 
 namespace Task_1
@@ -27,14 +35,12 @@ namespace Task_1
             x = x + y;
             y = x - y;
             x = x - y;
-
         }
+
         public void PrintReversedValues()
         { // Print reversed values
             Console.WriteLine("X is assigned: " + x);
             Console.WriteLine("Y is assigned: " + y);
         }
-
-
     }
 }

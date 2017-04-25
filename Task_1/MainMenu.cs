@@ -11,7 +11,7 @@ namespace Task_1
         private String selection;
         public void PrintInstructions()
         {
-            Console.WriteLine("Choose from an option below. Simply type" +
+            Console.WriteLine("Choose from an option below. Simply type " +
                 "the number you would like to use followed by enter.");
             Console.WriteLine("1: Reverse a string" + "\n" +
                               "2: Exchange value of varibles" + "\n" +

@@ -1,9 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
+/// <summary>
+/// This class is used to reverse any inputed string.
+/// 
+/// 1. Take any sentence in a String and reverse every word:
+/// Example Input:
+/// “The quick brown fox jumps over the lazy dog”
+/// 
+/// Example Result:
+/// “dog lazy the over jumps fox brown quick The”
+///
+/// Current test solutions
+/// When "Hello my name is John Nilson" is inputed, "Nilson John is name my Hello" is outputted.
+/// </summary>
 /*
  * Task 1
  * 
