@@ -5,20 +5,19 @@ using System.Text;
 using System.Threading.Tasks;
 
 /// <summary>
-/// This class is used to find two numbers in series, seperated by a comma in a string.
+/// This class is used to find two numbers in series, which are seperated by a comma in a string.
 
 /// Original problem given:
-/// 3. Find the pattern “[Number1, Number2]” in any given String and get the Integer (32bit) values for Number1 and Number2.
-
+/// 3. Find the pattern "[Number1, Number2]" in any given String and get the Integer (32bit) values for Number 1 and Number2.
 /// Example Input:
-/// “Foo Bar[45, 66] Bash”
+/// "Foo Bar[45, 65] Bash"
 
 /// Example Result:
-/// Number1 = 45
+/// Number 1 = 45
 /// Number2 = 66
 
 /// Current test solutions
-/// When "Hello I have 3 cats, and 4 dogs." is inputed 3 and 4 are outputted.
+/// When "Hello I have 3 cats, and 4 dogs." is inputed, 3 and 4 are outputted.
 /// </summary>
 
 namespace Task_1
