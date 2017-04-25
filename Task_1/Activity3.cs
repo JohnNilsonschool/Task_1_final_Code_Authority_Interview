@@ -24,8 +24,7 @@ using System.Threading.Tasks;
 namespace Task_1
 {
     class Activity3
-    {
-        // Initial values
+    { // Initial values
         String initialString = string.Empty;
         String numberOneWordForm = string.Empty;
         String numberTwoWordForm = string.Empty;
