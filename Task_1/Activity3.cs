@@ -5,38 +5,38 @@ using System.Text;
 using System.Threading.Tasks;
 
 /// <summary>
-///  This class finds a pattern of numbers seperated by a comma in a string.
+/// This class is used to find two numbers in series, seperated by a comma in a string.
+
+/// Original problem given:
+/// 3. Find the pattern “[Number1, Number2]” in any given String and get the Integer (32bit) values for Number1 and Number2.
+
+/// Example Input:
+/// “Foo Bar[45, 66] Bash”
+
+/// Example Result:
+/// Number1 = 45
+/// Number2 = 66
+
+/// Current test solutions
+/// When "Hello I have 3 cats, and 4 dogs." is inputed 3 and 4 are outputted.
 /// </summary>
 
-/* Original problem given:
- * 
- * 3. Find the pattern “[Number1, Number2]” in any given String and get the Integer (32bit) values for Number1 and Number2.
- *
- * Example Input:
- * “Foo Bar[45, 66] Bash”
- *
- * Example Result:
- * Number1 = 45
- * Number2 = 6
- */
-
-/*
- * Current test returns: 
- * error
- * 
- * when the following is inputed
- * The to random values for this random sentence are [45,66]. There you go. 
- */
 namespace Task_1
 {
     class Activity3
     {
         // Initial values
-        String initialString = "The to random values for this random sentence are [45, 66]. There you go.";
+        String initialString = string.Empty;
         String numberOneWordForm = string.Empty;
         String numberTwoWordForm = string.Empty;
         int number1, number2;
         bool passedComma = false;
+
+        public void GetInput()
+        { // Save input
+            Console.WriteLine("Input a phrase with two numbers seperated by a comma");
+            initialString = Console.ReadLine();
+        }
 
         public void FindValues()
         { // Finds the 2 given values
