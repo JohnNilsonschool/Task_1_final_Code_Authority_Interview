@@ -47,6 +47,7 @@ namespace Task_1
                 case "3":
                     Console.WriteLine("You selected: 3: Exchange value of varibles");
                     Activity3 activity3 = new Activity3();
+                    activity3.GetInput();
                     activity3.FindValues();
                     activity3.PrintValues();
                     Console.WriteLine();
