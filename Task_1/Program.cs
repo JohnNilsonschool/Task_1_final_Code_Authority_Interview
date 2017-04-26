@@ -12,13 +12,13 @@ namespace Task_1
     class Program
     {
         static void Main(string[] args)
-        {
+        { // Creates new program
             Program program = new Program();
             program.ChooseActivity();
         }
 
         private void ChooseActivity()
-        {
+        { // Creates dialog to choose program
             MainMenu mainMenu = new MainMenu();
 
             mainMenu.PrintInstructions();
@@ -26,6 +26,7 @@ namespace Task_1
             String selection = mainMenu.GetSelection();
             switch (selection)
             {
+                // Activity 1
                 case "1":
                     Console.WriteLine("You selected: 1: Reverse a string");
                     Activity1 activity1 = new Activity1();
@@ -35,6 +36,7 @@ namespace Task_1
                     Console.WriteLine();
                     ChooseActivity();
                     break;
+                // Activity 2
                 case "2":
                     Console.WriteLine("You selected: 2: Exchange value of varibles");
                     Activity2 activity2 = new Activity2();
@@ -44,6 +46,7 @@ namespace Task_1
                     Console.WriteLine();
                     ChooseActivity();
                     break;
+                // Activity 1
                 case "3":
                     Console.WriteLine("You selected: 3: Exchange value of varibles");
                     Activity3 activity3 = new Activity3();
